@@ -1,37 +1,72 @@
 [
   {
-    "title": "Teach Me How to Dougie",
-    "artist": "Cali Swag District",
-    "year": 0, 
-    "genre":"",
-    "filePath": "dougie-crop.wav"
+    "title": "Fater Lee",
+    "artist": "Black Ant",
+    "year": 2010,
+    "genre": "Hip-Hop",
+    "filePath": "Black Ant - Fater Lee.wav"
   },
   {
-    "title": "Could've Been (Tik Tok Remix)",
-    "artist": "H.E.R.", 
-    "year": 0, 
-    "genre": "",
-    "filePath": "her-crop.wav"
+    "title": "Little Star",
+    "artist": "Manuele Atzeni",
+    "year": 2009,
+    "genre": "Hip-Hop",
+    "filePath": "Manuele Atzeni - Little Star.wav"
   },
   {
-    "title": "On Me",
-    "artist": "Lil Baby",
-    "year": 0, 
-    "genre": "",
-    "filePath": "lil-baby-crop.wav"
+    "title": "As Colorful As Ever",
+    "artist": "Broke For Free",
+    "year": 2012,
+    "genre": "Electronic",
+    "filePath": "Broke For Free - As Colorful As Ever.wav"
   },
   {
-    "title": "Mo Money Mo Problems",
-    "artist": "Notorios BIG",
-    "year": 0, 
-    "genre": "",
-	  "filePath": "biggie-crop.wav"
+    "title": "Hot Boxing The Cockpit",
+    "artist": "Shlohmo",
+    "year": 2009,
+    "genre": "Hip-Hop",
+    "filePath": "Shlohmo - Hot Boxing The Cockpit.wav"
   },
   {
-    "title": "Industry Baby",
-    "artist": "Lil Nas X",
-    "year": 0, 
-    "genre": "",
-    "filePath": "lil-nas-x-crop.wav"
+    "title": "Sorry",
+    "artist": "Comfort Fit",
+    "year": 2004,
+    "genre": "Hip-Hop",
+    "filePath": "Comfort Fit - Sorry.wav"
+  },
+  {
+    "title": "Don't Go",
+    "artist": "K.I.R.K.",
+    "year": 2016,
+    "genre": "Hip-Hop",
+    "filePath": "K.I.R.K. - Don't Go.wav"
+  },
+  {
+    "title": "Heaven (makaih.com)",
+    "artist": "Makaih Beats",
+    "year": 2020,
+    "genre": "Pop",
+    "filePath": "Makaih Beats - Heaven (makaih.com).wav"
+  },
+  {
+    "title": "Held Down",
+    "artist": "Shaolin Dub",
+    "year": 2020,
+    "genre": "Electronic",
+    "filePath": "Shaolin Dub - Held Down.wav"
+  },
+  {
+    "title": "New Front (makaih.com)",
+    "artist": "Makaih Beats",
+    "year": 2020,
+    "genre": "Pop",
+    "filePath": "Makaih Beats - New Front (makaih.com).wav"
+  },
+  {
+    "title": "05 Too Complex Instrumental",
+    "artist": "6th Sense",
+    "year": 2009,
+    "genre": "Hip-Hop",
+    "filePath": "6th Sense - 05 Too Complex Instrumental     {6th Sense & The Kid Daytona}.wav"
   }
 ]
