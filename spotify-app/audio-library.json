@@ -1,27 +1,37 @@
 [
   {
-    "name": "Teach Me How to Dougie",
+    "title": "Teach Me How to Dougie",
     "artist": "Cali Swag District",
-    "fileName": "dougie-crop.wav"
+    "year": 0, 
+    "genre":"",
+    "filePath": "dougie-crop.wav"
   },
   {
-    "name": "Could've Been (Tik Tok Remix)",
-    "artist": "H.E.R.",
-    "fileName": "her-crop.wav"
+    "title": "Could've Been (Tik Tok Remix)",
+    "artist": "H.E.R.", 
+    "year": 0, 
+    "genre": "",
+    "filePath": "her-crop.wav"
   },
   {
-    "name": "On Me",
+    "title": "On Me",
     "artist": "Lil Baby",
-    "fileName": "lil-baby-crop.wav"
+    "year": 0, 
+    "genre": "",
+    "filePath": "lil-baby-crop.wav"
   },
   {
-    "name": "Mo Money Mo Problems",
+    "title": "Mo Money Mo Problems",
     "artist": "Notorios BIG",
-	  "fileName": "biggie-crop.wav"
+    "year": 0, 
+    "genre": "",
+	  "filePath": "biggie-crop.wav"
   },
   {
-    "name": "Industry Baby",
+    "title": "Industry Baby",
     "artist": "Lil Nas X",
-    "fileName": "lil-nas-x-crop.wav"
+    "year": 0, 
+    "genre": "",
+    "filePath": "lil-nas-x-crop.wav"
   }
 ]
