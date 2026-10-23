@@ -2,36 +2,29 @@ package com.example;
 
 public class Song {
 
-  private String name;
-  private String artist;
-  private String fileName;
+    private String title;
+    private String artist;
+    private int year;
+    private String genre;
+    private String filePath;
 
-  // serializes attributes into a string
-  public String toString() {
-    String s;
+    public String title() {
+        return title;
+    }
 
-    // since the object is complex, we return a JSON formatted string
-    s = "{ ";
-    s += "name: " + name;
-    s += ", ";
-    s += "artist: " + artist;
-    s += ", ";
-    s += "fileName: " + fileName;
-    s += " }";
+    public String artist() {
+        return artist;
+    }
 
-    return s;
-  }
+    public int year() {
+        return year;
+    }
 
-  // getters
-  public String name() {
-    return this.name;
-  }
+    public String genre() {
+        return genre;
+    }
 
-  public String artist() {
-    return this.artist;
-  }
-
-  public String fileName() {
-    return this.fileName;
-  }
+    public String filePath() {
+        return filePath;
+    }
 }

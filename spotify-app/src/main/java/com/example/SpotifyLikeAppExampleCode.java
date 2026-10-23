@@ -110,7 +110,7 @@ public class SpotifyLikeAppExampleCode {
 
     for (int i = 0; i < library.length; i++) {
         System.out.println((i + 1) + ". " +
-            library[i].name() + " - " +
+            library[i].title() + " - " +
             library[i].artist());
     }
 
@@ -127,9 +127,9 @@ public static void searchByTitle(Song[] library) {
     String search = input.nextLine().toLowerCase();
 
     for (int i = 0; i < library.length; i++) {
-        if (library[i].name().toLowerCase().contains(search)) {
+        if (library[i].title().toLowerCase().contains(search)) {
             System.out.println((i + 1) + ". " +
-                library[i].name() + " - " +
+                library[i].title() + " - " +
                 library[i].artist()); 
 
                 play(library, i);
@@ -146,7 +146,7 @@ public static void searchByTitle(Song[] library) {
 
     // get the filePath and open a audio file
     final Integer i = 3;
-    final String filename = library[songIndex].fileName();
+    final String filename = library[songIndex].filePath();
     final String filePath = directoryPath + "/wav/" + filename;
     final File file = new File(filePath);
 
