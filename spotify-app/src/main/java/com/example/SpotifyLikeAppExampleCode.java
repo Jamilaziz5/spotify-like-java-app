@@ -87,7 +87,11 @@ public class SpotifyLikeAppExampleCode {
   public static void handleMenu(String userInput, Song[] library) {
     switch (userInput) {
       case "h":
-        System.out.println("-->Home<--");
+        System.out.println("-->Home<--"); 
+        System.out.println("Welcome to the Spotify-like Music App");
+        System.out.println("Songs in library: " + library.length);
+        System.out.println("Use Search to find a song by title.");
+        System.out.println("Use Library to browse and play songs.");
         break;
       case "s":
         System.out.println("-->Search by title<--"); 
