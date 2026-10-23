@@ -153,7 +153,13 @@ public static void searchByTitle(Song[] library) {
     // stop the current song from playing, before playing the next one
     if (audioClip != null) {
       audioClip.close();
-    }
+    } 
+
+    System.out.println("Title: " + library[songIndex].title());
+    System.out.println("Artist: " + library[songIndex].artist());
+    System.out.println("Year: " + library[songIndex].year());
+    System.out.println("Genre: " + library[songIndex].genre());
+    System.out.println("File: " + library[songIndex].filePath());
 
     try {
       // create clip
