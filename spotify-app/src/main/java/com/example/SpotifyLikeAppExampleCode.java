@@ -90,7 +90,8 @@ public class SpotifyLikeAppExampleCode {
         System.out.println("-->Home<--");
         break;
       case "s":
-        System.out.println("-->Search by title<--");
+        System.out.println("-->Search by title<--"); 
+        searchByTitle(library);
         break;
       case "l":
         System.out.println("-->Library<--");
@@ -117,6 +118,23 @@ public class SpotifyLikeAppExampleCode {
     int choice = input.nextInt();
 
     play(library, choice - 1);
+} 
+
+public static void searchByTitle(Song[] library) {
+    Scanner input = new Scanner(System.in);
+
+    System.out.print("Enter a song title: ");
+    String search = input.nextLine().toLowerCase();
+
+    for (int i = 0; i < library.length; i++) {
+        if (library[i].name().toLowerCase().contains(search)) {
+            System.out.println((i + 1) + ". " +
+                library[i].name() + " - " +
+                library[i].artist()); 
+
+                play(library, i);
+        }
+    }
 }
   
 
