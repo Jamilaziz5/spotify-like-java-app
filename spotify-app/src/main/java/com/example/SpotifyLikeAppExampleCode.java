@@ -94,6 +94,7 @@ public class SpotifyLikeAppExampleCode {
         break;
       case "l":
         System.out.println("-->Library<--");
+        showLibrary(library);
         break;
       case "p":
         System.out.println("-->Play<--");
@@ -103,9 +104,18 @@ public class SpotifyLikeAppExampleCode {
         System.out.println("-->Quit<--");
         break;
       default:
-        break;
-    }
+        break; 
+    } 
   }
+
+    public static void showLibrary(Song[] library) { 
+      for (int i = 0; i < library.length; i++) { 
+        System.out.println((i + 1) + "." + 
+          library[i].name() + " - " + 
+          library[i].artist());
+      }
+    }
+  
 
   /*
    * plays an audio file
