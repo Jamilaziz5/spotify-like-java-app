@@ -104,7 +104,8 @@ public class SpotifyLikeAppExampleCode {
       case "q":
         System.out.println("-->Quit<--");
         break;
-      default:
+      default: 
+        System.out.println("Invalid option. Please choose H, S, L, or Q.");
         break; 
     } 
   }
